@@ -1,0 +1,121 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i';
+
+html, 
+body {
+	font-family: 'Open Sans', sans-serif;
+	height: 2000px;
+}
+
+::selection {
+	background-color: #E5E5E5;
+	//color: #004B64;
+}
+
+.home-header {
+	background-color: #E5E5E5;
+	background-image: url('../img/background-alt.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	// background-image: url('../img/backgroundTile.png');
+	// background-position: center center;
+	// background-repeat: tile;
+	// background-size: normal;
+	width: 100%;
+	height: 750px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	padding-top: 70px;
+}
+
+.home-content {
+	margin: 0;
+}
+
+.home-content .home-logo {
+	background-image: url('https://placehold.it/256');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 256px;
+	background-color: #E5E5E5;
+	border-radius: 50%;
+	margin: 75px auto;
+	width: 256px;
+	height: 256px;
+}
+
+.home-content h1 {
+	margin: 0;
+	color: #343434;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 60px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.home-content p {
+	margin: 0;
+	color: #343434;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.home-content hr {
+	border: 1px solid #004B64;
+	width: 125px;
+	margin: 30px auto;
+}
+
+.home-nav {
+	display: block;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #E5E5E5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	// background-color: rgb(255, 255, 255);
+	// box-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.11);
+}
+
+.home-nav ul {
+	display: block;
+	padding: 10px 0 0 0;
+	margin: 0;
+	height: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+.home-nav li {
+	display: inline-block;
+	padding: 30px 0;
+	margin-right: 20px;
+}
+
+.home-nav li:last-child {
+	margin-right: 0;
+}
+
+.home-nav a {
+	color: #343434;
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.home-nav a:hover {
+	color: #004B64;
+	border-top: 4px solid #004B64;
+	padding-top: 36px;
+}
+
+.home-nav .active {
+	color: #004B64;
+	font-weight: 600;
+	border-top: 4px solid #004B64;
+	padding-top: 36px;
+}
